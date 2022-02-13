@@ -285,20 +285,20 @@
   .circlemanStyle1 {
     width: 100px;
     position: absolute;
-    margin-top: -13em;
-    margin-left: -2%;
+    margin-top: -8em;
+    margin-left: 0%;
   }
   .circlemanStyle2 {
     width: 120px;
     position: absolute;
-    margin-top: -21em;
-    margin-left: 22%;
+    margin-top: -17em;
+    margin-left: 18%;
   }
   .circlemanStyle3 {
     width: 120px;
     position: absolute;
-    margin-top: -16em;
-    margin-left: 60%;
+    margin-top: -10em;
+    margin-left: 67%;
   }
 }
 
