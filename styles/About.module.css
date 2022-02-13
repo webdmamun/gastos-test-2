@@ -1,0 +1,114 @@
+.aboutherotext {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 6vw;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+}
+.visitorText {
+  font-family: Mulish;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #000000;
+  line-height: 150px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 90px;
+}
+.visitorTitleText {
+  font-family: Mulish;
+  font-weight: bold;
+  font-size: 24px;
+  color: #18191f;
+  text-align: center;
+}
+.visitorBodyText {
+  font-family: Mulish;
+  font-weight: SemiBold;
+  font-size: 16px;
+  color: #505050;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.usesImage {
+  width: 200px;
+}
+.cardTitleOne {
+  font-family: Mulish;
+  font-size: 2vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  color: #18191f;
+}
+.cardTitleTow {
+  font-family: Mulish;
+  font-size: 1.5vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #18191f;
+}
+.cardBody {
+  font-family: Mulish;
+  font-size: 1vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: center;
+  color: #505050;
+}
+.cardShadow {
+  border: none;
+  box-shadow: 0px 4px 20px 0px #5eead44d;
+  -webkit-box-shadow: 0px 4px 20px 0px #5eead44d;
+  -moz-box-shadow: 0px 4px 20px 0px #5eead44d;
+}
+.supportTitle {
+  font-family: Inter;
+  font-style: Regular;
+  font-size: 4vw;
+  text-align: center;
+  color: #000000;
+  margin-top: 50px;
+}
+.supportImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 70%;
+  max-width: 100%;
+  height: auto;
+}
+
+.VisitorDesktopText {
+  display: block;
+}
+.VisitorPhoneText {
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .VisitorDesktopText {
+    display: block;
+  }
+  .VisitorPhoneText {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .VisitorDesktopText {
+    display: none;
+  }
+  .VisitorPhoneText {
+    display: block;
+    padding-bottom: 20px;
+    margin-top: -20px;
+  }
+}
